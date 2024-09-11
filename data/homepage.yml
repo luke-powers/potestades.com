@@ -1,0 +1,127 @@
+# homepage
+homepage:
+  head:
+    title: "Home | Luke Powers"
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m Luke."
+  subtitle: "Back-End Python Developer"
+
+  description: "I am a software developer based in Pasadena, California. I've spent my 15+ year career developing backends in python using a variety of backends, but currently focus on FastAPI. I'm also well versed in all that comes with maintaining backend software such as docker, k8s, bash, linux, aws, gcp."
+
+  image:
+    x: "img/keyboard-mouse.jpeg"
+  imageMobile:
+    x: "img/keyboard-mouse.jpeg"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Ask me a Question"
+    URL: "#contact"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/powersluke"
+
+    - icon: "github"
+      URL: "https://github.com/luke-powers"
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: '<p class="lead">
+    I am Luke Powers of California, born and raised. I attended the
+    University of California at Riverside to get my Bachelor of
+    Science degree in Computer Science. I then entered the software
+    industry in Northern Los Angeles where I decided to settle down
+    and have a family. I am an avid soccer/football fan, and in my off
+    time can be found either playing (midfielder), coaching (10U-19U)
+    or watching (Go Man United!) the beautiful game.
+    </p>
+    <p class="lead">
+    My area of focus lies in designing and building backend solutions
+    for large scale projects. I enjoy the development process as much
+    as communicating with other developers and end users to ensure we
+    improve the experiences that reach business goals.
+    </p>'
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/in/powersluke/"
+  image:
+    x: "img/me.png"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "University of California, Riverside"
+      degree: "Bachelor of Science in Computer Science"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "Over 15+ years of experience working with companies from all over the Americas. I develop software to help improve people's lives."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/powersluke"
+  button2:
+    icon: "icon-github-line"
+    btnText: "Github"
+    URL: "https://www.github.com/luke-powers"
+
+  items:
+    - title: "Software Developer"
+      company: "independent contractor"
+      duration: "Jan 2024 - current"
+
+    - title: "Sr. Software Engineer"
+      company: "Kharen"
+      duration: "Sept 2022 - Nov 2023"
+
+    - title: "Sr. Software Engineer"
+      company: "Nativo"
+      duration: "Mar 2021 - Aug 2022"
+
+    - title: "Sr. Software Engineer"
+      company: "Miso Robotics"
+      duration: "Jun 2017 - Feb 2021"
+
+    - title: "Software Engineer IV"
+      company: "OpenX"
+      duration: "Oct 2010 - Jun 2017"
+
+client_and_work:
+  title: "Selected Projects"
+  enable: true
+
+  works:
+    - title: "AYSO Team Management Sheet"
+      description: "A Team Management sheet intended on helping amature coaches keep track of their players performance indicators, playing time, positions as well as generates documents needed by tournaments."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "View Project"
+        URL: "https://docs.google.com/spreadsheets/d/1P0CQnO5D41yoUCrut9j3K9AxctnSKwVVFeVy1uRYhS8/edit?usp=sharing"
+      image:
+        x: "img/works/ayso-team-sheets.png"
+      is_even: true
+
+
+# contact
+contact:
+  enable: true
+  title: "Contact"
+  form:
+    method: "POST"
+    action: "https://potestades.com/e-mailer"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
