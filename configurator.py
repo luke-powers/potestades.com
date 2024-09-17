@@ -23,6 +23,8 @@ if __name__ == "__main__":
     command = (
         f"/home/{user}/.virtualenvs/{web_project}/bin/uvicorn "
         "--uds $DOMAIN_SOCKET "
+        f"--ssl-certfile=/home/{user}/{domain_name}.cert "
+        f"--ssl-keyfile=/home/{user}/{domain_name}.key "
         f"{web_project}.main:app"
     )
     response = requests.post(
