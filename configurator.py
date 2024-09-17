@@ -18,7 +18,7 @@ if __name__ == "__main__":
         print("need all values provided")
         print(helptxt)
         exit()
-    headers = {"Authorization": api_token}
+    headers = {"Authorization": f"Token {api_token}"}
     api_base = f"https://www.pythonanywhere.com/api/v1/user/{user}/"
     command = (
         f"/home/{user}/.virtualenvs/{web_project}/bin/uvicorn "
