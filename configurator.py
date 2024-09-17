@@ -3,6 +3,7 @@ from pprint import pprint
 from urllib.parse import urljoin
 
 import requests
+from pythonanywhere.api.webapp import Webapp
 
 if __name__ == "__main__":
     helptxt = (
@@ -20,11 +21,13 @@ if __name__ == "__main__":
         exit()
     headers = {"Authorization": f"Token {api_token}"}
     api_base = f"https://www.pythonanywhere.com/api/v1/user/{user}/"
+    ssl_cert_path = f"/home/{user}/{domain_name}.cert"
+    ssl_key_path = f"/home/{user}/{domain_name}.key"
     command = (
         f"/home/{user}/.virtualenvs/{web_project}/bin/uvicorn "
         "--uds $DOMAIN_SOCKET "
-        f"--ssl-certfile=/home/{user}/{domain_name}.cert "
-        f"--ssl-keyfile=/home/{user}/{domain_name}.key "
+        f"--ssl-certfile={ssl_cert_path} "
+        f"--ssl-keyfile={ssl_key_path} "
         f"{web_project}.main:app"
     )
     response = requests.post(
@@ -38,3 +41,8 @@ if __name__ == "__main__":
     )
     pprint(response)
     pprint(response.json())
+
+    webapp = Webapp(domain_name)
+    webapp.set_ssl(ssl_cert_path, ssl_key_path)
+    webapp.reload()
+    pprint(webapp.get_ssl_info())
