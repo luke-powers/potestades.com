@@ -97,7 +97,7 @@ experience:
       duration: "Oct 2010 - Jun 2017"
 
 client_and_work:
-  title: "Selected Projects"
+  title: "Public Projects"
   enable: true
 
   works:
@@ -110,6 +110,16 @@ client_and_work:
       image:
         x: "img/works/ayso-team-sheets.png"
       is_even: true
+
+    - title: "AYSO Spoken Ref Card Project (in progress)"
+      description: "A project for keeping track of game data referees at soccer games."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "View Project"
+        URL: "https://potestades.com/ASRC"
+      image:
+        x: "img/works/asrc.png"
+      is_even: false
 
 
 # contact
