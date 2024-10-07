@@ -1,14 +1,12 @@
-# homepage
-homepage:
-  head:
-    title: "Home | Luke Powers"
+head:
+  title: "Luke Powers"
 # showcase
 showcase:
   enable: true
   title: "Hello, I’m Luke."
   subtitle: "Back-End Python Developer"
 
-  description: "I am a software developer based in Pasadena, California. I've spent my 15+ year career developing backends in python using a variety of backends, but currently focus on FastAPI. I'm also well versed in all that comes with maintaining backend software such as docker, k8s, bash, linux, aws, gcp."
+  description: "I am a software developer based in Pasadena, California. I've spent my 15+ year career developing backends in python using a variety of backends, but currently focus on FastAPI. I'm also well versed in all that comes with maintaining backend software such as docker, k8s, bash, linux, aws, gcp. This website is hosted on free-tier GCP."
 
   image:
     x: "img/keyboard-mouse.jpeg"
@@ -17,8 +15,13 @@ showcase:
 
   button:
     icon: "icon-mail-fill"
-    btnText: "Ask me a Question"
-    URL: "#contact"
+    btnText: "View Resume"
+    URL: "https://docs.google.com/document/d/1zq2n6oE8eM_K6HD5Sw-uN3PWRzimCgG4/edit?usp=sharing&ouid=111793122980166736861&rtpof=true&sd=true"
+
+  # button2:
+  #   icon: "icon-mail-fill"
+  #   btnText: "Ask me a Question"
+  #   URL: "#contact"
 
   socialLinks:
     - icon: "linkedin"
@@ -52,6 +55,8 @@ about:
     URL: "https://www.linkedin.com/in/powersluke/"
   image:
     x: "img/me.png"
+  imageMobile:
+    x: "img/me.png"
 
 # education
 education:
@@ -67,13 +72,9 @@ experience:
   title: "Experience"
   description: "Over 15+ years of experience working with companies from all over the Americas. I develop software to help improve people's lives."
   button:
-    icon: "icon-linkedin-fill"
-    btnText: "Linkedin"
-    URL: "https://www.linkedin.com/in/powersluke"
-  button2:
-    icon: "icon-github-line"
-    btnText: "Github"
-    URL: "https://www.github.com/luke-powers"
+    icon: "icon-mail-fill"
+    btnText: "View Resume"
+    URL: "https://docs.google.com/document/d/1zq2n6oE8eM_K6HD5Sw-uN3PWRzimCgG4/edit?usp=sharing&ouid=111793122980166736861&rtpof=true&sd=true"
 
   items:
     - title: "Software Developer"
@@ -113,25 +114,25 @@ client_and_work:
 
     - title: "AYSO Spoken Ref Card Project (in progress)"
       description: "A project for keeping track of game data referees at soccer games."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "View Project"
-        URL: "https://potestades.com/ASRC"
+      # button:
+      #   icon: "icon-arrow-right"
+      #   btnText: "View Project"
+      #   URL: "https://potestades.com/ASRC"
       image:
         x: "img/works/asrc.png"
       is_even: false
 
 
 # contact
-contact:
-  enable: true
-  title: "Contact"
-  form:
-    method: "POST"
-    action: "https://potestades.com/e-mailer"
-    full_name: "Full Name"
-    email: "Email Address"
-    message: "Type Your Message Here"
-  button:
-    icon: "icon-mail-fill"
-    btnText: "Send Message"
+# contact:
+#   enable: true
+#   title: "Contact"
+#   form:
+#     method: "POST"
+#     action: "https://potestades.com/e-mailer"
+#     full_name: "Full Name"
+#     email: "Email Address"
+#     message: "Type Your Message Here"
+#   button:
+#     icon: "icon-mail-fill"
+#     btnText: "Send Message"

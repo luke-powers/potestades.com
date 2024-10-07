@@ -1,4 +1,3 @@
-baseURL = "https://raditian-hugo.radity.com/"
 languageCode = "en-us"
 theme = "raditian-free-hugo-theme"
 
@@ -58,14 +57,14 @@ theme = "raditian-free-hugo-theme"
 
 
 [params]
-
+  title = "Luke Powers"
   sections = ["showcase", "about", "education", "experience", "client-and-work", "contact"]
 
   googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
 
   [params.logo]
-    text1 = "Powers"
-    text2 = "Luke"
+    text1 = "Luke"
+    text2 = "Powers"
 
   [params.footer]
       copyright = "© Luke Powers. All rights reserved."
