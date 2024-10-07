@@ -6,5 +6,5 @@ app = FastAPI(title="Potestades.com")
 app.add_middleware(HTTPSRedirectMiddleware)
 
 app.mount(
-    "/", StaticFiles(directory="potestades/public", html=True), name="static_page"
+    "/", StaticFiles(directory="public", html=True), name="static_page"
 )
