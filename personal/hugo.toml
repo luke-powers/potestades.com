@@ -34,10 +34,10 @@ theme = "raditian-free-hugo-theme"
   URL = "#portfolio"
   weight = 3
 
-  [[menu.header]]
-  name = "Contact"
-  URL = "#contact"
-  weight = 4
+  # [[menu.header]]
+  # name = "Contact"
+  # URL = "#contact"
+  # weight = 4
 
 
   [[menu.footer]]
@@ -50,15 +50,15 @@ theme = "raditian-free-hugo-theme"
   URL = "#portfolio"
   weight = 3
 
-  [[menu.footer]]
-  name = "Contact"
-  URL = "#contact"
-  weight = 4
+  # [[menu.footer]]
+  # name = "Contact"
+  # URL = "#contact"
+  # weight = 4
 
 
 [params]
   title = "Luke Powers"
-  sections = ["showcase", "about", "education", "experience", "client-and-work", "contact"]
+  sections = ["showcase", "about", "education", "experience", "client-and-work"]#, "contact"]
 
   googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
 
