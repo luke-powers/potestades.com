@@ -8,3 +8,7 @@ app.add_middleware(HTTPSRedirectMiddleware)
 app.mount(
     "/", StaticFiles(directory="personal/public", html=True), name="Personal Page"
 )
+
+app.mount(
+    "/coach", StaticFiles(directory="coach/public", html=True), name="Coach Page"
+)
