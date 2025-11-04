@@ -1,0 +1,71 @@
+languageCode = "en-us"
+theme = "raditian-free-hugo-theme"
+
+# Plugins
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "css/main.css"
+  [[params.plugins.css]]
+  URL = "css/rad-icons.css"
+  [[params.plugins.css]]
+  URL = "css/custom.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "js/rad-animations.js"
+  [[params.plugins.js]]
+  URL = "js/sticky-header.js"
+  [[params.plugins.js]]
+  URL = "js/library/fontfaceobserver.js"
+
+
+# navigation
+[menu]
+
+  [[menu.header]]
+  name = "About"
+  URL = "#about"
+  weight = 2
+
+  [[menu.header]]
+  name = "Education"
+  URL = "#education"
+  weight = 3
+
+  [[menu.header]]
+  name = "Experience"
+  URL = "#experience"
+  weight = 3
+
+  [[menu.footer]]
+  name = "About"
+  URL = "#about"
+  weight = 2
+
+  [[menu.footer]]
+  name = "Education"
+  URL = "#education"
+  weight = 3
+
+  [[menu.footer]]
+  name = "Experience"
+  URL = "#experience"
+  weight = 3
+
+
+[params]
+  title = "Luke Powers"
+  sections = ["showcase", "about", "education", "experience"]
+
+  googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
+
+  [params.logo]
+    text1 = "Coach"
+    text2 = "Luke Powers"
+
+  [params.footer]
+      copyright = "© Luke Powers. All rights reserved."
+      [params.footer.hugo_logo]
+      x = "img/hugo-logo-wide.png"

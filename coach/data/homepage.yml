@@ -1,0 +1,161 @@
+head:
+  title: "Luke Powers"
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I'm Coach Powers"
+  subtitle: "Soccer Coach"
+
+  description: "I am a soccer coach with 30 seasons of coaching across
+                8 years. I also train coaches for AYSO and running the
+                AYSO B10U NEXT program."
+
+  button:
+    icon: "icon-profile-fill"
+    btnText: "NFHS Profile"
+    URL: "https://nfhslearn.com/lookup/users/search?states%5B%5D=5&state_name=California&names%5B%5D=Luke+Powers&schools%5B%5D=&completion_code=&date_range=&commit=Search+User"
+
+  image:
+    x: "img/soccer.jpeg"
+  imageMobile:
+    x: "img/soccer.jpg"
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: '<p class="lead">
+
+    I am Luke Powers of California, born and raised. I have been
+    coaching with AYSO since 2017, having run an All Star team each
+    year as well. I am an avid soccer/football fan, and can be found
+    either playing (midfielder), or watching (Go Man United!) the
+    beautiful game.
+
+    </p>
+    <p class="lead">
+
+    My Philosophy is to help players develop appropriate soccer TEAM
+    skills and provide chances for players to work towards achieving
+    personal development goals in soccer.
+
+    To this end, the skills of passing, shooting and off the ball
+    movement are emphasized over nutmegs and fancy flicks.
+
+    Players are expected to be aggressive and constantly striving to
+    make a difference in the game.
+
+    </p>'
+
+  button:
+    icon: "icon-profile-fill"
+    btnText: "USSF Profile"
+    URL: "https://learning.ussoccer.com/directory?ussfId=1000000000179708"
+
+  image:
+    x: "img/me.jpg"
+  imageMobile:
+    x: "img/me.jpg"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "American Youth Soccer Organization"
+      degree: "Advanced 19U Coach"
+
+    - university: "American Youth Soccer Organization"
+      degree: "Regional Referee"
+
+    - university: "United States Soccer Federation"
+      degree: "D License"
+
+    - university: "National Federation of State High School Associations"
+      degree: "Level 3"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+
+  description: "Over 8 years of experience working with athletes
+                to develop skills in goal setting and personal
+                development through learning the game of soccer."
+
+  button:
+    icon: "icon-smile-fill"
+    URL: "https://docs.google.com/document/d/1UPoK40mXYKDubt5p1E4J7iupGZ9LrVp49wLrLSIBHrM/edit"
+
+  items:
+    - title: "Junior Varsity"
+      company: "Saint Francis High School"
+      duration: "2025"
+
+    - title: "B10U, B12U Core; B10U Sectional All Stars"
+      company: "AYSO"
+      duration: "2025"
+
+    - title: "Junior Varsity"
+      company: "Pasadena High School"
+      duration: "2024"
+
+    - title: "B10U, B12U, B14U Core; B10U Area All Stars; Grad Series"
+      company: "AYSO"
+      duration: "2024"
+
+    - title: "B8U, B10U, B14U Core; B12U Area All Stars; B12U Spring Season; Grad Series"
+      company: "AYSO"
+      duration: "2023"
+
+    - title: "B7U, B8U, B12U Core; B12U Regional All Stars, B12U Spring Season"
+      company: "AYSO"
+      duration: "2022"
+
+    - title: "B6U, B7U, B14U Core"
+      company: "AYSO"
+      duration: "2021"
+
+    - title: "B10U All Stars"
+      company: "AYSO"
+      duration: "2020"
+
+    - title: "B10U Core ; B12U Spring Season"
+      company: "AYSO"
+      duration: "2019"
+
+    - title: "B11 EXTRA; B10U Regional All Stars"
+      company: "AYSO"
+      duration: "2018"
+
+    - title: "B10U"
+      company: "AYSO"
+      duration: "2017"
+
+
+client_and_work:
+  title: "Tournaments"
+  enable: true
+
+  works:
+    - title: "AYSO Team Management Sheet"
+      description: "A Team Management sheet intended on helping amateur coaches keep track of their players performance indicators, playing time, positions as well as generates documents needed by tournaments."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "View Project"
+        URL: "https://docs.google.com/spreadsheets/d/1P0CQnO5D41yoUCrut9j3K9AxctnSKwVVFeVy1uRYhS8/edit?usp=sharing"
+      image:
+        x: "img/works/ayso-team-sheets.png"
+      is_even: true
+
+    - title: "AYSO Spoken Ref Card Project (in progress)"
+      description: "A project for keeping track of game data referees at soccer games."
+      # button:
+      #   icon: "icon-arrow-right"
+      #   btnText: "View Project"
+      #   URL: "https://potestades.com/ASRC"
+      image:
+        x: "img/works/asrc.png"
+      is_even: false
+
+
