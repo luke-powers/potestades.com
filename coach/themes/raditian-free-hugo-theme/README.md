@@ -22,7 +22,7 @@ Demo: https://raditian-hugo.radity.com
     Clone the raditian-free-hugo-theme (git clone https://github.com/radity/raditian-free-hugo-theme.git).
     Replace the "config.toml" file that in the project's root directory with themes/raditian-free-hugo-theme/exampleSite/config.toml
     > hugo server -D
-    The theme is alive on http://localhost:1313/ 
+    The theme is alive on http:https://potestades.com/ 
 
 ## License
 
