@@ -11,7 +11,7 @@ APP.add_middleware(HTTPSRedirectMiddleware)
 
 @APP.get("/favicon.ico", include_in_schema=False)
 async def favicon():
-    return FileResponse("personal/favicon.ico")
+    return FileResponse("personal/static/img/favicon.ico")
 
 
 @APP.get("/shorten/{url:path}")
