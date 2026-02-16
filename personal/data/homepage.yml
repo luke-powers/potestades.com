@@ -123,7 +123,7 @@ client_and_work:
       is_even: false
 
     - title: "Unicode URL Shortener"
-      description: "A simple tool for shorter urls using unicode (for example see https://potestades.com/✒"
+      description: "A simple tool for shorter urls using unicode (for example see https://potestades.com/✒)"
       button:
         icon: "icon-arrow-right"
         btnText: "View Project"
