@@ -129,7 +129,7 @@ client_and_work:
         btnText: "View Project"
         URL: "https://potestades.com/show/"
       image:
-        x: "img/works/shurlrtener.jpg"
+        x: "img/works/shurlrtener.png"
       is_even: true
 
 # contact
