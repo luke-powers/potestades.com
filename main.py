@@ -5,7 +5,7 @@ from fastapi.staticfiles import StaticFiles
 
 from shurlrtener import shortener, setter, show, lengthener
 
-APP = FastAPI(title="potestades.com")
+APP = FastAPI(title="potestades.com", docs_url=None, redoc_url=None, openapi_url=None)
 APP.add_middleware(HTTPSRedirectMiddleware)
 
 
