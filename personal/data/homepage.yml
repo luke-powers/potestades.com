@@ -122,12 +122,12 @@ client_and_work:
         x: "img/works/asrc.png"
       is_even: false
 
-    - title: "Unicode URL Shortener"
-      description: "A simple tool for shorter urls using unicode (for example see https://potestades.com/✒)"
+    - title: "shURLrtener - Unicode URL Shortener"
+      description: "A simple tool for shorter urls using unicode (see below)"
       button:
         icon: "icon-arrow-right"
         btnText: "View Project"
-        URL: "https://potestades.com/show/"
+        URL: "https://potestades.com/✒"
       image:
         x: "img/works/shurlrtener.png"
       is_even: true
