@@ -16,7 +16,7 @@ showcase:
   button:
     icon: "icon-mail-fill"
     btnText: "View Resume"
-    URL: "https://docs.google.com/document/d/1zq2n6oE8eM_K6HD5Sw-uN3PWRzimCgG4/edit?usp=sharing&ouid=111793122980166736861&rtpof=true&sd=true"
+    URL: "https://potestades.com/✒"
 
   # button2:
   #   icon: "icon-mail-fill"
@@ -122,6 +122,15 @@ client_and_work:
         x: "img/works/asrc.png"
       is_even: false
 
+    - title: "Unicode URL Shortener"
+      description: "A simple tool for shorter urls using unicode (for example see https://potestades.com/✒"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "View Project"
+        URL: "https://potestades.com/show/"
+      image:
+        x: "img/works/shurlrtener.jpg"
+      is_even: true
 
 # contact
 # contact:
