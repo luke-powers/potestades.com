@@ -112,16 +112,6 @@ client_and_work:
         x: "img/works/ayso-team-sheets.png"
       is_even: true
 
-    - title: "AYSO Spoken Ref Card Project (in progress)"
-      description: "A project for keeping track of game data referees at soccer games."
-      # button:
-      #   icon: "icon-arrow-right"
-      #   btnText: "View Project"
-      #   URL: "https://potestades.com/ASRC"
-      image:
-        x: "img/works/asrc.png"
-      is_even: false
-
     - title: "shURLrtener - Unicode URL Shortener"
       description: "A simple tool for shorter urls using unicode (see below)"
       button:
@@ -130,6 +120,16 @@ client_and_work:
         URL: "https://potestades.com/✒"
       image:
         x: "img/works/shurlrtener.png"
+      is_even: false
+
+    - title: "AYSO Spoken Ref Card Project (in progress)"
+      description: "A project for keeping track of game data referees at soccer games."
+      # button:
+      #   icon: "icon-arrow-right"
+      #   btnText: "View Project"
+      #   URL: "https://potestades.com/ASRC"
+      image:
+        x: "img/works/asrc.png"
       is_even: true
 
 # contact
