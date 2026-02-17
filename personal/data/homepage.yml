@@ -113,7 +113,7 @@ client_and_work:
       is_even: true
 
     - title: "shURLrtener - Unicode URL Shortener"
-      description: "A simple tool for shorter urls using unicode (see below)"
+      description: "A simple tool for shorter urls using unicode (see link below)"
       button:
         icon: "icon-arrow-right"
         btnText: "View Project"
