@@ -122,6 +122,16 @@ client_and_work:
         x: "img/works/shurlrtener.png"
       is_even: false
 
+    - title: "Sterling Trading Tech Documentation"
+      description: "Documentation for Sterling Trading Tech's API"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "View Project"
+        URL: "https://apidocs.sterlingtradingtech.com/"
+      image:
+        x: "img/works/stt-docs.png"
+      is_even: true
+
     - title: "AYSO Spoken Ref Card Project (in progress)"
       description: "A project for keeping track of game data referees at soccer games."
       # button:
@@ -130,7 +140,7 @@ client_and_work:
       #   URL: "https://potestades.com/ASRC"
       image:
         x: "img/works/asrc.png"
-      is_even: true
+      is_even: false
 
 # contact
 # contact:
