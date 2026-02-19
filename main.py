@@ -1,9 +1,14 @@
+import logging
+
 from fastapi import FastAPI, Request
 from fastapi.middleware.httpsredirect import HTTPSRedirectMiddleware
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
+from shurl_log import process_logging
 
-from shurlrtener import shortener, setter, show, lengthener
+from shurlrtener import lengthener, setter, shortener, show
+
+process_logging(logging)
 
 APP = FastAPI(title="potestades.com", docs_url=None, redoc_url=None, openapi_url=None)
 APP.add_middleware(HTTPSRedirectMiddleware)
