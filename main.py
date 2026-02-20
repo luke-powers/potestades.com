@@ -4,9 +4,9 @@ from fastapi import FastAPI, Request
 from fastapi.middleware.httpsredirect import HTTPSRedirectMiddleware
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
-from shurl_log import process_logging
 
-from shurlrtener import lengthener, setter, shortener, show
+from shurlrtener import shurlrtener
+from shurlrtener.shurl_log import process_logging
 
 process_logging(logging)
 
@@ -21,22 +21,22 @@ async def favicon():
 
 @APP.get("/shorten/{url:path}")
 async def sh(request: Request, url: str):
-    return await shortener(request, url)
+    return await shurlrtener.shortener(request, url)
 
 
 @APP.get("/set/{code}/{url:path}")
 async def se(request: Request, code: str, url: str):
-    return await setter(request, code, url)
+    return await shurlrtener.setter(request, code, url)
 
 
 @APP.get("/{code}")
 async def len(code: str):
-    return await lengthener(code)
+    return await shurlrtener.lengthener(code)
 
 
 @APP.get("/show/")
 async def sho():
-    return await show()
+    return await shurlrtener.show()
 
 
 APP.mount("/coach", StaticFiles(directory="coach/public", html=True), name="Coach Page")
