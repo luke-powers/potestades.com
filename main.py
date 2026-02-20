@@ -16,12 +16,12 @@ APP.add_middleware(HTTPSRedirectMiddleware)
 
 @APP.on_event("startup")
 async def on_startup():
-    shurlrtener.on_startup()
+    await shurlrtener.on_startup()
 
 
 @APP.on_event("shutdown")
 async def on_shutdown():
-    shurlrtener.on_shutdown()
+    await shurlrtener.on_shutdown()
 
 
 @APP.get("/favicon.ico", include_in_schema=False)
