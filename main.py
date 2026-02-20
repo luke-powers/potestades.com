@@ -14,6 +14,16 @@ APP = FastAPI(title="potestades.com", docs_url=None, redoc_url=None, openapi_url
 APP.add_middleware(HTTPSRedirectMiddleware)
 
 
+@APP.on_event("startup")
+async def on_startup():
+    shurlrtener.on_startup()
+
+
+@APP.on_event("shutdown")
+async def on_shutdown():
+    shurlrtener.on_shutdown()
+
+
 @APP.get("/favicon.ico", include_in_schema=False)
 async def favicon():
     return FileResponse("personal/static/img/favicon.ico")
