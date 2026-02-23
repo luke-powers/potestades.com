@@ -118,11 +118,11 @@ client_and_work:
       is_even: true
 
     - title: "shURLrtener - Unicode URL Shortener"
-      description: "A simple tool for shorter urls using unicode (see link below)"
+      description: "A simple tool for shorter urls using unicode (see link throughout page)"
       button:
         icon: "icon-arrow-right"
         btnText: "View Project"
-        URL: "https://potestades.com/✒"
+        URL: "https://potestades.com/🗎"
       image:
         x: "img/works/shurlrtener.png"
       is_even: false
