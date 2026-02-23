@@ -4,9 +4,14 @@ head:
 showcase:
   enable: true
   title: "Hello, I’m Luke."
-  subtitle: "Back-End Python Developer"
+  subtitle: "Smart and Gets Things Done"
 
-  description: "I am a software developer based in Pasadena, California. I've spent my 15+ year career developing back-ends in python using a variety of back-ends, but currently focus on FastAPI. I'm also well versed in all that comes with maintaining back-end software such as docker, k8s, bash, Linux, aws, gcp. This website is hosted on free-tier GCP."
+  description: "I am a software developer based in Pasadena,
+    California. I've spent my 15+ year career developing back-ends in
+    python using a variety of back-ends, but currently focus on
+    FastAPI. I'm also well versed in all that comes with maintaining
+    back-end software such as docker, k8s, bash, Linux, aws, gcp. This
+    website is hosted on free-tier GCP."
 
   image:
     x: "img/keyboard-mouse.jpeg"
