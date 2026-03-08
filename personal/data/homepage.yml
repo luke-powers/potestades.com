@@ -107,16 +107,6 @@ client_and_work:
   enable: true
 
   works:
-    - title: "AYSO Team Management Sheet"
-      description: "A Team Management sheet intended on helping amateur coaches keep track of their players performance indicators, playing time, positions as well as generates documents needed by tournaments."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "View Project"
-        URL: "https://docs.google.com/spreadsheets/d/1P0CQnO5D41yoUCrut9j3K9AxctnSKwVVFeVy1uRYhS8/edit?usp=sharing"
-      image:
-        x: "img/works/ayso-team-sheets.png"
-      is_even: true
-
     - title: "shURLrtener - Unicode URL Shortener"
       description: "A simple tool for shorter urls using unicode (see links throughout page)"
       button:
@@ -126,6 +116,16 @@ client_and_work:
       image:
         x: "img/works/shurlrtener.png"
       is_even: false
+
+    - title: "AYSO Team Management Sheet"
+      description: "A Team Management sheet intended on helping amateur coaches keep track of their players performance indicators, playing time, positions as well as generates documents needed by tournaments."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "View Project"
+        URL: "https://docs.google.com/spreadsheets/d/1P0CQnO5D41yoUCrut9j3K9AxctnSKwVVFeVy1uRYhS8/edit?usp=sharing"
+      image:
+        x: "img/works/ayso-team-sheets.png"
+      is_even: true
 
     - title: "Sterling Trading Tech Documentation"
       description: "Documentation for Sterling Trading Tech's API"
